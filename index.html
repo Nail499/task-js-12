@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1><My><i class="bi bi-book-fill" style="color: rgb(0, 174, 255);"></i>My<span>Book</span>List</h1>
+        <p>Title</p>
+        <input type="text" placeholder="Compound effect" id="titleinput">
+        <p>Author</p>
+        <input type="text" placeholder="Call Newport" id="authorinput">
+        <p>Color</p>
+        <input type="text" placeholder="gray" id="colorinput">
+        <div class="radio">
+            <input type="radio" name="type" value="Phsycology" id="typepsy">Phsycology <input type="radio" name="type"
+                value="Drama" id="typedrm">Drama <input type="radio" name="type" value="Motivation"
+                id="typmot">Motivation </div>
+        <button id="add">Add Book</button>
+    </div>
+    <div class="tablemain">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyinput">
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
